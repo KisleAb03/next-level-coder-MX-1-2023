@@ -6,3 +6,4 @@ class Shield(PowerUp):
         self.image = SHIELD
         self.type = SHIELD_TYPE
         super().__init__(self.image, self.type)
+        self.rect_shield = SHIELD.get_rect()

@@ -7,7 +7,7 @@ SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 1100
 FPS = 30
 IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
-FONT_ARIAL = pygame.font.match_font('arial')
+FONT_ARIAL = pygame.font.match_font("arial")
 
 # Assets Constants
 ICON = pygame.image.load(os.path.join(IMG_DIR, "DinoWallpaper.png"))
@@ -23,8 +23,8 @@ RUNNING_SHIELD = [
 ]
 
 RUNNING_HAMMER = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck1Hammer.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun1Hammer.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun2Hammer1.png")),
 ]
 
 JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoJump.png"))
@@ -70,8 +70,17 @@ BG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Track.png'))
 
 HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
 
+BULLET = pygame.image.load(os.path.join(IMG_DIR, 'Other/bullet.png'))
+
+BULLET_SPEED = 10
+
 DEFAULT_TYPE = "default"
 
 SHIELD_TYPE = "shield"
+
+HAMMER_TYPE = "hammer"
+
+
+
 
 LIVES = 4
